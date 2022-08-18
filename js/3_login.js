@@ -15,9 +15,9 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     // Danger: do not check email password on the client side
     // step-4: verify email and  password and check whether valid user or not
     if (email === 'sontan@bap.com' && password === 'secret') {
-        console.log('valid user');
+        window.location.href = '4_bank.html';
     }
     else {
-        console.log('invalid user');
+        alert('tui password vule gesos!! Toke ami teijjo sontan gosona korlam');
     }
 });
